@@ -51,6 +51,15 @@ namespace VariousTypes
             Console.WriteLine($"Variável tipo decimal: {y2}");
             Console.WriteLine("\n");
 
+            // Exercices bool
+
+            bool bl1 = true;
+            bool bl2 = 5 > 10;
+
+            Console.WriteLine($"True é {bl1}");
+            Console.WriteLine($"5 > 10 é {bl2}");
+            Console.WriteLine("\n");
+
         }
     }
 }
