@@ -17,7 +17,11 @@ namespace DecimalHexa
             int n3 = int.Parse(num3);
             int n4 = int.Parse(num4);
 
-            
+            Console.WriteLine($"{n1,6}  {n1,6:X}");
+            Console.WriteLine($"{n2,6}  {n2,6:X}");
+            Console.WriteLine($"{n3,6}  {n3,6:X}");
+            Console.WriteLine($"{n4,6}  {n4,6:X}");
+
         }
     }
 }
