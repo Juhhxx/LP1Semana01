@@ -4,9 +4,14 @@ namespace AskForInput
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            Console.WriteLine("Hello, World!");
+            // Exercice ask for input
+            Console.WriteLine("Insira um número inteiro:");
+            string input = Console.ReadLine();
+            int num = int.Parse(input);
+            Console.WriteLine("\n");
+
         }
     }
 }
