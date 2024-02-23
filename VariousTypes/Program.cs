@@ -8,21 +8,22 @@ namespace VariousTypes
         static void Main()
         {
             Console.OutputEncoding = Encoding.UTF8;
-            // Exercício Integers
+            // Exercices Integers
 
             int x = -100;
             short x1 = 10;
-            long x2 = 1_500_000;
-            uint ux = 100;
-            ulong ux2 = 2_500_100;
+            long x2 = 1_500_000L;
+            uint ux = 100U;
+            ulong ux2 = 2_500_100UL;
 
             Console.WriteLine($"Variável tipo int: {x}");
             Console.WriteLine($"Variável tipo short: {x1}");
             Console.WriteLine($"Variável tipo long: {x2}");
             Console.WriteLine($"Variável tipo uint: {ux}");
             Console.WriteLine($"Variável tipo ulong: {ux2}");
+            Console.WriteLine("\n");
 
-            // Exercício Chars
+            // Exercices Chars
 
             char fist = '\u270A';
             char arrow = '\u2934';
@@ -37,6 +38,18 @@ namespace VariousTypes
             Console.WriteLine($"{square} BE {star}");
             Console.WriteLine($"{square} PCP {hamSick}");
             Console.WriteLine($"{square} CHEGA {c}");
+            Console.WriteLine("\n");
+
+            // Exercices Reals
+
+            float y = 15.4023f;
+            double y1 = 3.1415;
+            decimal y2 = 1.50M;
+
+            Console.WriteLine($"Variável tipo float: {y}");
+            Console.WriteLine($"Variável tipo double: {y1}");
+            Console.WriteLine($"Variável tipo decimal: {y2}");
+            Console.WriteLine("\n");
 
         }
     }
