@@ -17,7 +17,9 @@ namespace AskForInput
             float num2 = float.Parse(input2);
 
             float sum = num + num2;
-            string resulst = $"A soma dos dois números é: {sum}";
+            string result = $"A soma dos dois números é: {sum}";
+
+            Console.WriteLine(result);
 
         }
     }
